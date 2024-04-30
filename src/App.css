@@ -1,9 +1,20 @@
 .nav {
   padding-block: 16px;
+  display: flex;
+  align-items: center;
+
 }
 
 .nav h2 {
   font-weight: bold;
+  font-size: 1.3em;
+  font-family: var(--font-logo);
+}
+
+.nav a {
+  white-space: nowrap;
+  color: black;
+  padding: 8px;
 }
 
 .nav .nav-items {
@@ -12,25 +23,37 @@
   align-items: center;
   font-weight: 600;
 }
+
+.active {
+  /* color: var(--color-primary) !important; */
+  border-bottom: 2px solid var(--color-primary);
+}
+
 .main {
   height: 70vh;
 }
+
 .main h1 {
   font-size: clamp(4em, 8vw, 11em);
   font-weight: bold;
   letter-spacing: -4px;
 }
-.main p, .main2 p {
+
+.main p,
+.main2 p {
   font-size: 1.6em;
 }
+
 .main p span {
   font-weight: bold;
   text-transform: capitalize;
 }
+
 .main2 {
   overflow: hidden;
   background-color: #ececec;
 }
+
 .main2 h2 {
   font-size: clamp(2em, 5vw, 7em);
   font-weight: bold;
@@ -38,10 +61,12 @@
   text-transform: capitalize;
   padding-top: 44px;
 }
+
 .main2 .img {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
 .main2 .img:hover {
   transform: scale(1.04);
 }

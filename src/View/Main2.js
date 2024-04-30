@@ -6,7 +6,7 @@ export default function Main2() {
         <Container className='main2' fluid>
             <Row>
                 <Col>
-                    <Image fluid className='w-100' src={require("./Images/arc1.jpg")} />
+                    <Image fluid className='w-100' src={require("../Images/arc1.jpg")} />
                 </Col>
                 <Col>
                     <Row>
@@ -21,10 +21,10 @@ export default function Main2() {
                         </Col>
                         <Row className='py-4'>
                             <Col>
-                                <Image fluid className='img w-100' src={require('./Images/arc2.jpg')} />
+                                <Image fluid className='img w-100' src={require('../Images/arc2.jpg')} />
                             </Col>
                             <Col>
-                                <Image fluid className='img w-100' src={require('./Images/arc3.jpg')} />
+                                <Image fluid className='img w-100' src={require('../Images/arc3.jpg')} />
                             </Col>
                         </Row>
                     </Row>
