@@ -24,6 +24,37 @@ export default function Home() {
                 </Row>
             </Container>
             <Main2 />
+            <Container className='my-5'>
+                <Row  >
+                    <Row className='my-4'>               
+                             <h2 className='text-center'>We Take Pride in Our Numbers</h2>
+                    </Row>
+
+                    <Row className='d-flex justify-content-space'>
+                        <Col style={{ display: 'grid', 'justify-items': 'center', whiteSpace: "nowrap" }}>
+                            <h3>25 K</h3>
+                            <p className="border-bottom border-dark text-nowrap">Wirld wide clinte</p>
+                        </Col>
+                        <Col style={{ display: 'grid', 'justify-items': 'center', whiteSpace: "nowrap" }}>
+                            <h3>25 K</h3>
+                            <p className="border-bottom border-dark text-nowrap">Wirld wide clinte</p>
+                        </Col>
+                        <Col style={{ display: 'grid', 'justify-items': 'center', whiteSpace: "nowrap" }}>
+                            <h3>25 K</h3>
+                            <p className="border-bottom border-dark text-nowrap">Wirld wide clinte</p>
+                        </Col>
+                        <Col style={{ display: 'grid', 'justify-items': 'center', whiteSpace: "nowrap" }}>
+                            <h3>25 K</h3>
+                            <p className="border-bottom border-dark text-nowrap">Wirld wide clinte</p>
+                        </Col>
+                        <Col style={{ display: 'grid', 'justify-items': 'center', whiteSpace: "nowrap" }}>
+                            <h3>25 K</h3>
+                            <p className="border-bottom border-dark text-nowrap">Wirld wide clinte</p>
+                        </Col></Row>
+
+                </Row>
+
+            </Container >
         </>
 
     )
