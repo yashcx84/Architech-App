@@ -6,6 +6,7 @@ import './index.css';
 import App from './App';
 import Main from './Main';
 import Main2 from './Main2';
+import Services from './screens/Services';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <App />
     <Main/>
     <Main2 />
+    <Services />
   </React.StrictMode>
 );
 

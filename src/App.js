@@ -1,5 +1,7 @@
 import './App.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Services from './screens/Services';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -10,7 +12,11 @@ export default function App() {
         </Col>
         <Col>
           <Row className='nav-items'>
-            <Col>Home</Col>
+            <Col>
+            <a href='/Services' >hime</a>
+            
+            
+            </Col>
             <Col>Our Work</Col>
             <Col>Services</Col>
             <Col>About</Col>
