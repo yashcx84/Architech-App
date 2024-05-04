@@ -19,7 +19,7 @@ export default function Home() {
                 </Row>
                 <Row>
                     <Col>
-                        <button>Get a Quote</button>
+                        <button className='button-colored'>Get a Quote</button>
                     </Col>
                 </Row>
             </Container>
