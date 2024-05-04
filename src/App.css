@@ -2,19 +2,30 @@
   padding-block: 16px;
   display: flex;
   align-items: center;
-
+  background-color: var(--color-light);
 }
 
 .nav h2 {
   font-weight: bold;
   font-size: 1.3em;
   font-family: var(--font-logo);
+  color: var(--color-dark2);
 }
 
 .nav a {
   white-space: nowrap;
-  color: black;
+  color: var(--color-dark2);
   padding: 8px;
+  transition: all 0.1s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.nav h2 span {
+  color: var(--color-primary);
+}
+
+.nav a:hover {
+  background-color: var(--color-secondary);
 }
 
 .nav .nav-items {
@@ -22,11 +33,19 @@
   justify-content: center;
   align-items: center;
   font-weight: 600;
+  gap: 24px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  gap: 12px;
 }
 
 .active {
-  /* color: var(--color-primary) !important; */
-  border-bottom: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary) !important;
 }
 
 .main {
@@ -34,9 +53,14 @@
 }
 
 .main h1 {
-  font-size: clamp(4em, 8vw, 11em);
+  font-size: clamp(4em, 8vw, 10em);
   font-weight: bold;
   letter-spacing: -4px;
+  color: var(--color-light);
+}
+
+.main p {
+  color: var(--color-light);
 }
 
 .main p,
@@ -51,7 +75,11 @@
 
 .main2 {
   overflow: hidden;
-  background-color: #ececec;
+  background-color: var(--color-dark2);
+}
+
+.main2 p {
+  color: var(--color-secondary);
 }
 
 .main2 h2 {
@@ -60,6 +88,7 @@
   letter-spacing: -2px;
   text-transform: capitalize;
   padding-top: 44px;
+  color: var(--color-light);
 }
 
 .main2 .img {
@@ -69,4 +98,10 @@
 
 .main2 .img:hover {
   transform: scale(1.04);
+}
+
+@media screen and (max-width:768px) {
+  .nav-item {
+    display: none;
+  }
 }
