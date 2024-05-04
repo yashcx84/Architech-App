@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 export default function Main2() {
     return (
         <Container className='main2' fluid>
-            <Row>
+            <Row xs={1} md={2} >
                 <Col>
                     <Image fluid className='w-100' src={require("../Images/arc1.jpg")} />
                 </Col>

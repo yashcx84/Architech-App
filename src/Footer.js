@@ -9,8 +9,8 @@ export default function Footer() {
     return (
         <>
             <Container className='my-3'>
-                <Row sm={2} xs={2} md={4}>
-                    <Col>
+                <Row sm={2} xs={2} lg={4}>
+                    <Col className='my-2'>
                         <h2>ArchiTech</h2>
                         <div>
                             1234-322-344 <br />
@@ -20,22 +20,22 @@ export default function Footer() {
                         </div>
 
                     </Col>
-                    <Col className='d-grid'>
+                    <Col className='d-grid my-2' >
                         <Link href="/">Home</Link>
                         <Link href="/">Home</Link>
                         <Link href="/">Home</Link>
                         <Link href="/">Home</Link>
 
                     </Col>
-                    <Col>
+                    <Col className='my-2'>
                         <strong>Subscribe for more updates</strong>
                         <form>
                             <label>Email :</label><br />
-                            <input type='text' /><br />
+                            <input type='text' style={{width:"100%"}} /><br />
                             <button className='btn btn-primary my-2'>submit</button>
                         </form>
                     </Col>
-                    <Col>
+                    <Col className='my-2'>
 
                         <strong>follow us on </strong>
                         <div className='d-flex'>
