@@ -7,9 +7,9 @@ import RouterApp from './Router/RouterApp';
 export default function App() {
     return (
         <BrowserRouter>
-                <Nav />
-                <RouterApp />
-                <Footer />
+            <Nav />
+            <RouterApp />
+            <Footer />
         </BrowserRouter>
     );
 }

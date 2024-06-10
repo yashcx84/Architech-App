@@ -56,11 +56,11 @@
   font-size: clamp(4em, 8vw, 10em);
   font-weight: bold;
   letter-spacing: -4px;
-  color: var(--color-light);
+  color: var(--color-dark2);
 }
 
 .main p {
-  color: var(--color-light);
+  color: var(--color-dark2);
 }
 
 .main p,
@@ -98,6 +98,32 @@
 
 .main2 .img:hover {
   transform: scale(1.04);
+}
+
+
+/* another section */
+.numberContainer {
+  width: 100%;
+}
+
+.numberContainer h2 {
+  font-size: clamp(2em, 4vw, 5em);
+  font-family: var(--font-head);
+  font-weight: bold;
+}
+.number-card {
+  background-color: var(--color-secondary);
+  padding: 24px 28px;
+  border-radius: 24px;
+}
+.number-card h3 {
+  font-family: var(--font-head);
+  font-weight: bold;
+}
+.number-card p {
+  font-family: var(--font-para);
+  text-transform: capitalize;
+  /* border-bottom: 2px solid var(--color-dark2); */
 }
 
 @media screen and (max-width:768px) {
